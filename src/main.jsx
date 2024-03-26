@@ -10,31 +10,34 @@ import Nav from './Nav.jsx'
 import Cart from './Cart.jsx'
 import Books from './Books.jsx'
 import Details from './Details.jsx'
+import Error from './Error.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>,
-    children: [
+    errorElement:<Error></Error>,
+    children: [{
+      path:'/details/:id',
+      loader:()=>fetch('/Data.json'),
+      element:<Details></Details>
+    },
       {
         path: '/home',
-        loader: () => fetch('Data.json'),
+        loader: () => fetch('/Data.json'),
 
         element: <Books></Books>
       },
       {
 
         path: '/listedbooks',
+        loader:()=>fetch('/Data.json'),
         element: <ListedBooks></ListedBooks>,
       }, {
         path: '/read',
         element: <Read></Read>
 
-      },{
-        path:'/details/:id',
-        loader:()=>fetch('Data.json'),
-        element:<Details></Details>
-      }
+      },
     ]
   }
 ])
