@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Dune",
+        "author": "Frank Herbert",
+        "image": "https://i.ibb.co/NStMjdh/11.webp",
+        "review": "Dune is a groundbreaking science fiction novel that explores politics, religion, and ecology on the desert planet of Arrakis. With its intricate world-building and complex characters, Frank Herbert creates a rich and immersive story that has captivated readers for decades.",
+        "totalPages": 694,
+        "rating": 4.6,
+        "category": ["Science Fiction","Politics"],
+        "tags": ["Space Opera", "Epic", "Politics"],
+        "publisher": "Chilton Books",
+        "yearOfPublishing": 1965
+    },
+    {
+        "bookId": 2,
+        "bookName": "Neuromancer",
+        "author": "William Gibson",
+        "image": "https://i.ibb.co/X3C8DtV/222.webp",
+        "review": "Neuromancer is a seminal cyberpunk novel that takes readers on a thrilling journey through a dystopian future where hackers and artificial intelligences are commonplace. William Gibson's visionary writing and noir-inspired atmosphere have had a profound influence on the science fiction genre.",
+        "totalPages": 271,
+        "rating": 4.3,
+        "category": ["Science Fiction","Technological"],
+        "tags": ["Cyberpunk", "Virtual Reality", "Technological"],
+        "publisher": "Ace Books",
+        "yearOfPublishing": 1984
+    },
+    {
+        "bookId": 3,
+        "bookName": "Foundation",
+        "author": "Isaac Asimov",
+        "image": "https://i.ibb.co/WGzZDVV/33.jpg",
+        "review": "Foundation is a classic science fiction series that follows the rise and fall of a galactic empire over millennia. Isaac Asimov's masterful storytelling and exploration of future history make Foundation a must-read for any fan of the genre.",
+        "totalPages": 244,
+        "rating": 4.7,
+        "category": ["Science Fiction","Adventure"],
+        "tags": ["Space Opera", "Future History", "Politics"],
+        "publisher": "Gnome Press",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Martian",
+        "author": "Andy Weir",
+        "image": "https://i.ibb.co/tKYWzjh/44.jpg",
+        "review": "The Martian is a gripping tale of survival and ingenuity set on the hostile surface of Mars. Andy Weir's meticulous attention to scientific detail combined with the resourcefulness of protagonist Mark Watney make this a thrilling and believable science fiction adventure.",
+        "totalPages": 369,
+        "rating": 4.4,
+        "category": ["Science Fiction" ,"Survival"],
+        "tags": ["Space Exploration", "Survival", "Adventure"],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2011
+    },
+    {
+        "bookId": 5,
+        "bookName": "Snow Crash",
+        "author": "Neal Stephenson",
+        "image": "https://i.ibb.co/jrB2rKF/555.webp",
+        "review": "Snow Crash is a fast-paced cyberpunk novel set in a near-future America where the boundaries between virtual reality and the real world blur. Neal Stephenson's inventive storytelling and exploration of linguistics and technology make Snow Crash a compelling and thought-provoking read.",
+        "totalPages": 480,
+        "rating": 4.2,
+        "category": ["Science Fiction" ,"Virtual Reality"],
+        "tags": ["Cyberpunk", "Virtual Reality", "Adventure"],
+        "publisher": "Bantam Books",
+        "yearOfPublishing": 1992
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Left Hand of Darkness",
+        "author": "Ursula K. Le Guin",
+        "image": "https://i.ibb.co/Pr91d6b/66.jpg",
+        "review": "The Left Hand of Darkness is a groundbreaking science fiction novel that explores themes of gender and identity on a distant planet. Ursula K. Le Guin's thought-provoking exploration of human nature and society continues to resonate with readers today.",
+        "totalPages": 304,
+        "rating": 4.5,
+        "category": ["Science Fiction","Social Issues"],
+        "tags": ["Speculative Fiction", "Gender", "Social Issues"],
+        "publisher": "Ace Books",
+        "yearOfPublishing": 1969
+    }
+]
