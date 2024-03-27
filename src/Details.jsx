@@ -20,8 +20,8 @@ const Details = () => {
     const idt=parseInt(id)
     const give = (data.find(d => d.bookId == id))
     // console.log(give)
-    const notify1 = () => {
-        Lol(idt)
+    const notify1 = (sf) => {
+        Lol(idt,sf)
         
       
       //  toast.success('Successfully Add for read');
@@ -44,8 +44,8 @@ const Details = () => {
                             <p className='text-gray-500 flex my-3 '><p className='w-52 text-left '>Publisher:</p><span className='text-black font-bold'>{give.publisher}</span></p>
                             <p className='text-gray-500 flex mb-3'><p className='w-52 text-left '>Year of Publishing:</p><span className='text-black font-bold'>{give.yearOfPublishing}</span></p>
                             <p className='text-gray-500 flex mb-6 '><p className='w-52 text-left '>Rating:</p><span className='text-black font-bold'>{give.rating}</span></p>
-                            <p className='flex gap-14 mt-10' ><button onClick={notify1} className='border-2 border-gray-400 rounded-2xl px-6 text-[18px] btn font-bold '>Read</button>     <Toaster position="top-right"
-                                reverseOrder={false} /><button  onClick={()=>notify1()} className='bg-blue-400 btn px-6 rounded-2xl hover:bg-blue-500 font-bold'>Wishlist</button><Toaster position="top-right"
+                            <p className='flex gap-14 mt-10' ><button onClick={()=>notify1("sf1")} className='border-2 border-gray-400 rounded-2xl px-6 text-[18px] btn font-bold '>Read</button>     <Toaster position="top-right"
+                                reverseOrder={false} /><button  onClick={()=>notify1("sf")} className='bg-blue-400 btn px-6 rounded-2xl hover:bg-blue-500 font-bold'>Wishlist</button><Toaster position="top-right"
                                     reverseOrder={false} /></p>
                         </div>
                     </div>
