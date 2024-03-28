@@ -6,7 +6,7 @@ const Staionnary = () => {
     const data=useLoaderData()
     console.log(data)
     return (
-        <div className='grid grid-cols-3 mt-20'>
+        <div className='text-left border w-full lg:grid lg:grid-cols-3 mt-20'>
             {
                 data.map((d)=><St d={d}></St>)
             }

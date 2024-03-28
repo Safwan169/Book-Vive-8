@@ -17,7 +17,7 @@ const Books = () => {
             </div>
             <p className="text-3xl font-bold text-center my-20">Books</p>
 
-            <div className="grid grid-cols-3 gap-4  my-10">
+            <div className="lg:grid lg:grid-cols-3 gap-4 w-full lg:w-[1150px] my-10">
                 {/* books data */}
 
                 {
