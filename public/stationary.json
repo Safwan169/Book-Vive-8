@@ -1,31 +1,31 @@
 [
     {
-      "image": "https://example.com/image1.jpg",
+      "image": "https://i.ibb.co/r2Zcrhv/pen1.jpg",
       "stationary_name": "Ballpoint Pen",
       "price":5
     },
     {
-      "image": "https://example.com/image2.jpg",
+      "image": "https://i.ibb.co/FKZzmz9/note.webp",
       "stationary_name": "Notebook",
       "price":40
     },
     {
-      "image": "https://example.com/image3.jpg",
+      "image": "https://i.ibb.co/GFbhhSr/notee.jpg",
       "stationary_name": "Sticky Notes",
       "price": 20
     },
     {
-      "image": "https://example.com/image4.jpg",
+      "image": "https://i.ibb.co/p0WNSGP/pencil.jpg",
       "stationary_name": "Mechanical Pencil",
       "price": 15
     },
     {
-      "image": "https://example.com/image5.jpg",
+      "image": "https://i.ibb.co/FDwhP8f/highliter.jpg",
       "stationary_name": "Highlighter Set",
       "price": 25
     },
     {
-      "image": "https://example.com/image6.jpg",
+      "image": "https://i.ibb.co/b3R38D9/erasar.jpg",
       "stationary_name": "Eraser Pack",
       "price": 10
     }

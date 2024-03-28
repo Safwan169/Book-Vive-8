@@ -3,9 +3,10 @@ import { useLoaderData } from 'react-router-dom';
 import St from './St';
 
 const Staionnary = () => {
-    const data=useLoaderData
+    const data=useLoaderData()
+    console.log(data)
     return (
-        <div>
+        <div className='grid grid-cols-3 mt-20'>
             {
                 data.map((d)=><St d={d}></St>)
             }
