@@ -14,7 +14,7 @@ const St = ({d}) => {
             // </div>
             <div  className=" shadow-2xl lg:px-8">
             <div className="card card-compact  bg-base-100 shadow-xl h-[400px] ">
-                <figure className='border  w-[250px] items-start justify-start'><img className=" w-[200px] h-[200px]  lg:w-[230px] border ml-0 lg:h-[200px] bg-cover rounded-xl mt-6" src={image} alt="image" /></figure>
+                <figure className='  w-[250px] items-start justify-start'><img className=" w-[200px] h-[200px]  lg:w-[230px]  ml-0 lg:h-[200px] bg-cover rounded-xl mt-6" src={image} alt="image" /></figure>
                 <div className="card-body">
                     <div>
                     <p className="text-2xl font-bold   h-[50px] ">{stationary_name}</p>
