@@ -11,6 +11,8 @@ import Cart from './Cart.jsx'
 import Books from './Books.jsx'
 import Details from './Details.jsx'
 import Error from './Error.jsx'
+import About from './About.jsx'
+import Staionnary from './Staionnary.jsx'
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,16 @@ const router = createBrowserRouter([
         element: <Read></Read>
 
       },
+       {
+        path: '/about',
+
+        element: <About></About>
+
+      },{
+        path:'/stationary',
+        loader:()=>fetch('/stationary.json'),
+        element:<Staionnary></Staionnary>
+      }
     ]
   }
 ])

@@ -23,6 +23,10 @@ const ListedBooks = () => {
             // console.log(data, get, applid)
         }
     }, [])
+    const click=(tt)=>{
+        console.log(Data,tt)
+
+    }
     // const sorting=()=>{
     //     const data=Data.filter(dat=>dat.rating)
     //     console.log(data)
@@ -38,7 +42,7 @@ const ListedBooks = () => {
                     <summary className="m-1 btn hover:bg-green-600 bg-green-500 text-white rounded-2xl">Short By <IoIosArrowDown className="font-bold" />
 </summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li ><a>Rating</a></li>
+                        <li onClick={()=>click("rating")} ><a>Rating</a></li>
                         <li><a>Numbers of pages</a></li>
                         <li><a>Publisher Year</a></li>
                     </ul>

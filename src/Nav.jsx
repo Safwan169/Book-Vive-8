@@ -13,6 +13,9 @@ const Nav = ({}) => {
         <li><NavLink to={'/read'}  style={({ isActive })=> ({
     background: isActive ? "white" : "",color:"black"
   })} >Pages to read</NavLink></li>
+        <li><NavLink to={'/about'}  style={({ isActive })=> ({
+    background: isActive ? "white" : "",color:"black"
+  })} >About us</NavLink></li>
     </>
 
     return (

@@ -1,0 +1,33 @@
+[
+    {
+      "image": "https://example.com/image1.jpg",
+      "stationary_name": "Ballpoint Pen",
+      "price":5
+    },
+    {
+      "image": "https://example.com/image2.jpg",
+      "stationary_name": "Notebook",
+      "price":40
+    },
+    {
+      "image": "https://example.com/image3.jpg",
+      "stationary_name": "Sticky Notes",
+      "price": 20
+    },
+    {
+      "image": "https://example.com/image4.jpg",
+      "stationary_name": "Mechanical Pencil",
+      "price": 15
+    },
+    {
+      "image": "https://example.com/image5.jpg",
+      "stationary_name": "Highlighter Set",
+      "price": 25
+    },
+    {
+      "image": "https://example.com/image6.jpg",
+      "stationary_name": "Eraser Pack",
+      "price": 10
+    }
+  ]
+  
