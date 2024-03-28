@@ -42,7 +42,7 @@ const Nav = ({ }) => {
                         {nav}
                     </ul>
                 </div>
-                <div className="navbar-end flex gap-3">
+                <div className="navbar-end  lg:visible lg:flex hidden lg:flex-row gap-3">
                     <a className="btn hover:bg-green-600 bg-green-500 text-white">Sign In</a>
                     <a className="btn hover:bg-blue-500 bg-blue-400 text-white">Sign Up</a>
                 </div>

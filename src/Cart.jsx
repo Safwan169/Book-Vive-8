@@ -7,7 +7,7 @@ const Cart = ({ datas }) => {
         navigate(`/details/${bookId}`)
     }
     return (
-        <div onClick={detail} className=" shadow-2xl w-svw lg:w-[350px] lg:ml-10 pl-8 border1 rounded-2xl mt-4 lg:mt-0 lg:px-8">
+        <div onClick={detail} className=" shadow-2xl w-svw lg:w-[350px] lg:ml-10 pl-8 lg:pl-0 border1 rounded-2xl mt-4 lg:mt-0 lg:px-8">
             <div className="card card-compact  bg-base-100  lg:w-[300px] shadow-xl h-[400px] ">
                 <figure className="w-[230px]  lg:mx-auto"><img className="w-[230px] h-[230px] bg-cover rounded-xl mt-6" src={image} alt="image" /></figure>
                 <div className="card-body">
