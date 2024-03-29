@@ -28,7 +28,7 @@ const Lol=(idt,sf)=>{
     const exists=get.find(get=>get===idt)
     const exists1=get1.find(get1=>get1===idt)
     if (!exists&& sf==='sf'&& exists1!==idt) {
-        toast.success('Successfully Add for Wishlist');
+        toast.success('Books added to  Wishlist');
          
          get.push(idt)
          localStorage.setItem('datas',JSON.stringify(get))}
@@ -40,7 +40,7 @@ const Lol=(idt,sf)=>{
     //    else( toast.error("You are already  read"))
 // Wishlist1(exists1,sf)
 else if (!exists1&& sf==='sf1') {
-    toast.success('Successfully Add for read');
+    toast.success('Books added to read');
      
      get1.push(idt)
      localStorage.setItem('data',JSON.stringify(get1))
@@ -48,7 +48,7 @@ else if (!exists1&& sf==='sf1') {
 
  }
 
-else( toast.error("You are already added"))
+else( toast.error("You have already added"))
     // return console.log('thik nsi')
 }
 
