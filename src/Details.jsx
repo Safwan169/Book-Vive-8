@@ -32,7 +32,7 @@ const Details = () => {
         <div>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:gap-10 lg:flex-row">
-                    <img src={give.image} className="w-[425px] h-[665px] py-4 rounded-lg shadow-2xl" />
+                    <img src={give.image} className="w-[425px] lg:h-[665px] bg-cover py-4 rounded-lg shadow-2xl" />
                     <div className=' text-left pl-10 pt-10 '>
                         <h1 className="text-5xl font-bold">{give.bookName}</h1>
                         <p className="py-6 font-semibold">By :{give.author}</p>

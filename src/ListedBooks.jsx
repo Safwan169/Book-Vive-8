@@ -23,10 +23,19 @@ const ListedBooks = () => {
             // console.log(data, get, applid)
         }
     }, [])
-    const click=(tt)=>{
-        console.log(Data,tt)
+    const save=[]
 
+    const click=(tt)=>{
+        // console.log(Data,tt,save)
+        Data.forEach((f)=>save.push(f.rating))
+        const s=save.filter(f=>f>0)
+   
+        console.log(s)
+        
     }
+
+
+    
     // const sorting=()=>{
     //     const data=Data.filter(dat=>dat.rating)
     //     console.log(data)
@@ -34,12 +43,12 @@ const ListedBooks = () => {
     // }
     return (
         <div className="mt-10">
-            <div className="font-bold text-3xl my-14">
+            <div className="font-bold text-3xl my-4 lg:my-14">
                 Books
             </div>
             <div>
                 <details className="dropdown">
-                    <summary className="m-1 btn hover:bg-green-600 bg-green-500 text-white rounded-2xl">Short By <IoIosArrowDown className="font-bold" />
+                    <summary className="m-1 btn my-8 hover:bg-green-600 bg-green-500 text-white rounded-2xl">Short By <IoIosArrowDown className="font-bold" />
 </summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                         <li onClick={()=>click("rating")} ><a>Rating</a></li>
