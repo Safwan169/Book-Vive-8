@@ -5,7 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const Local = () => {
     const data=localStorage.getItem('datas')
-    console.log(data)
+    // console.log(data)
    if(data){
     return(JSON.parse(data))
 
@@ -15,7 +15,7 @@ const Local = () => {
 
 const Local1 = () => {
     const data=localStorage.getItem('data')
-    console.log(data)
+    // console.log(data)
    if(data){
     return(JSON.parse(data))
 

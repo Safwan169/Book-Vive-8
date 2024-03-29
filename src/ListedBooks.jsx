@@ -9,7 +9,7 @@ const ListedBooks = () => {
     const data = useLoaderData()
     const [Data, setData] = useState([])
     const [Data1, setData1] = useState([])
-    console.log(Data)
+    // console.log(Data)
     useEffect(() => {
         const get = Local()
         const get1 = Local1()
@@ -23,24 +23,11 @@ const ListedBooks = () => {
             // console.log(data, get, applid)
         }
     }, [])
-    const save=[]
 
-    const click=(tt)=>{
-        // console.log(Data,tt,save)
-        Data.forEach((f)=>save.push(f.rating))
-        const s=save.filter(f=>f>0)
    
-        console.log(s)
-        
-    }
 
+  
 
-    
-    // const sorting=()=>{
-    //     const data=Data.filter(dat=>dat.rating)
-    //     console.log(data)
-    //     if(data<)
-    // }
     return (
         <div className="mt-10">
             <div className="font-bold text-3xl my-4 lg:my-14">
@@ -51,7 +38,7 @@ const ListedBooks = () => {
                     <summary className="m-1 btn my-8 hover:bg-green-600 bg-green-500 text-white rounded-2xl">Short By <IoIosArrowDown className="font-bold" />
 </summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li onClick={()=>click("rating")} ><a>Rating</a></li>
+                        <li ><a>Rating</a></li>
                         <li><a>Numbers of pages</a></li>
                         <li><a>Publisher Year</a></li>
                     </ul>
